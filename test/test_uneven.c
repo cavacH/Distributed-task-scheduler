@@ -5,7 +5,7 @@
 #include <errno.h>
 
 int main(int argc, char *argv[], char *envp[]) {
-    char *exe_path = "/home/pi/project/workload";
+    char *exe_path = "./workload";
     int _argc = 4, i;
     char *_argv[7][4] = {
         {"OTHER", "0", "1000", "5000000"},
